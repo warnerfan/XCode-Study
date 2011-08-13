@@ -1,0 +1,231 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAEDEA7613F67E5F00039ED1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAEDEA7513F67E5F00039ED1 /* Foundation.framework */; };
+		FAEDEA7913F67E5F00039ED1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEDEA7813F67E5F00039ED1 /* main.m */; };
+		FAEDEA7D13F67E5F00039ED1 /* XCode_Study.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = FAEDEA7C13F67E5F00039ED1 /* XCode_Study.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FAEDEA6F13F67E5F00039ED1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				FAEDEA7D13F67E5F00039ED1 /* XCode_Study.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FAEDEA7113F67E5F00039ED1 /* XCode-Study */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "XCode-Study"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAEDEA7513F67E5F00039ED1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FAEDEA7813F67E5F00039ED1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAEDEA7B13F67E5F00039ED1 /* XCode-Study-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XCode-Study-Prefix.pch"; sourceTree = "<group>"; };
+		FAEDEA7C13F67E5F00039ED1 /* XCode_Study.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = XCode_Study.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAEDEA6E13F67E5F00039ED1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAEDEA7613F67E5F00039ED1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAEDEA6613F67E5F00039ED1 = {
+			isa = PBXGroup;
+			children = (
+				FAEDEA7713F67E5F00039ED1 /* XCode-Study */,
+				FAEDEA7413F67E5F00039ED1 /* Frameworks */,
+				FAEDEA7213F67E5F00039ED1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAEDEA7213F67E5F00039ED1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAEDEA7113F67E5F00039ED1 /* XCode-Study */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAEDEA7413F67E5F00039ED1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAEDEA7513F67E5F00039ED1 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FAEDEA7713F67E5F00039ED1 /* XCode-Study */ = {
+			isa = PBXGroup;
+			children = (
+				FAEDEA7813F67E5F00039ED1 /* main.m */,
+				FAEDEA7C13F67E5F00039ED1 /* XCode_Study.1 */,
+				FAEDEA7A13F67E5F00039ED1 /* Supporting Files */,
+			);
+			path = "XCode-Study";
+			sourceTree = "<group>";
+		};
+		FAEDEA7A13F67E5F00039ED1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAEDEA7B13F67E5F00039ED1 /* XCode-Study-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAEDEA7013F67E5F00039ED1 /* XCode-Study */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAEDEA8013F67E5F00039ED1 /* Build configuration list for PBXNativeTarget "XCode-Study" */;
+			buildPhases = (
+				FAEDEA6D13F67E5F00039ED1 /* Sources */,
+				FAEDEA6E13F67E5F00039ED1 /* Frameworks */,
+				FAEDEA6F13F67E5F00039ED1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "XCode-Study";
+			productName = "XCode-Study";
+			productReference = FAEDEA7113F67E5F00039ED1 /* XCode-Study */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAEDEA6813F67E5F00039ED1 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = FAEDEA6B13F67E5F00039ED1 /* Build configuration list for PBXProject "XCode-Study" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FAEDEA6613F67E5F00039ED1;
+			productRefGroup = FAEDEA7213F67E5F00039ED1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAEDEA7013F67E5F00039ED1 /* XCode-Study */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAEDEA6D13F67E5F00039ED1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAEDEA7913F67E5F00039ED1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FAEDEA7E13F67E5F00039ED1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FAEDEA7F13F67E5F00039ED1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FAEDEA8113F67E5F00039ED1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XCode-Study/XCode-Study-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FAEDEA8213F67E5F00039ED1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XCode-Study/XCode-Study-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAEDEA6B13F67E5F00039ED1 /* Build configuration list for PBXProject "XCode-Study" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAEDEA7E13F67E5F00039ED1 /* Debug */,
+				FAEDEA7F13F67E5F00039ED1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAEDEA8013F67E5F00039ED1 /* Build configuration list for PBXNativeTarget "XCode-Study" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAEDEA8113F67E5F00039ED1 /* Debug */,
+				FAEDEA8213F67E5F00039ED1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAEDEA6813F67E5F00039ED1 /* Project object */;
+}
