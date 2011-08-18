@@ -16,6 +16,7 @@
 		FAB9982013FC10FE00DEED67 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAB9981E13FC10FE00DEED67 /* MainWindow.xib */; };
 		FAB9982313FC10FE00DEED67 /* CalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB9982213FC10FE00DEED67 /* CalculatorViewController.m */; };
 		FAB9982613FC10FE00DEED67 /* CalculatorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAB9982413FC10FE00DEED67 /* CalculatorViewController.xib */; };
+		FAEC35EE13FD5978007384FF /* CalculatorBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEC35ED13FD5978007384FF /* CalculatorBrain.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,8 @@
 		FAB9982113FC10FE00DEED67 /* CalculatorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalculatorViewController.h; sourceTree = "<group>"; };
 		FAB9982213FC10FE00DEED67 /* CalculatorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorViewController.m; sourceTree = "<group>"; };
 		FAB9982513FC10FE00DEED67 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CalculatorViewController.xib; sourceTree = "<group>"; };
+		FAEC35EC13FD5978007384FF /* CalculatorBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorBrain.h; sourceTree = "<group>"; };
+		FAEC35ED13FD5978007384FF /* CalculatorBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorBrain.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 			children = (
 				FAB9981B13FC10FE00DEED67 /* CalculatorAppDelegate.h */,
 				FAB9981C13FC10FE00DEED67 /* CalculatorAppDelegate.m */,
+				FAEC35EC13FD5978007384FF /* CalculatorBrain.h */,
+				FAEC35ED13FD5978007384FF /* CalculatorBrain.m */,
 				FAB9981E13FC10FE00DEED67 /* MainWindow.xib */,
 				FAB9982113FC10FE00DEED67 /* CalculatorViewController.h */,
 				FAB9982213FC10FE00DEED67 /* CalculatorViewController.m */,
@@ -164,6 +169,7 @@
 				FAB9981913FC10FE00DEED67 /* main.m in Sources */,
 				FAB9981D13FC10FE00DEED67 /* CalculatorAppDelegate.m in Sources */,
 				FAB9982313FC10FE00DEED67 /* CalculatorViewController.m in Sources */,
+				FAEC35EE13FD5978007384FF /* CalculatorBrain.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +287,7 @@
 				FAB9982B13FC10FE00DEED67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
