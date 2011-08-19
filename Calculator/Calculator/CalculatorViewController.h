@@ -13,6 +13,7 @@
 {
     IBOutlet UILabel *display;
     CalculatorBrain *brain;
+    BOOL userIsInTheMiddleOfTypingANumber;
 }
 
 - (IBAction)digitalPressed:(UIButton *)sender;
